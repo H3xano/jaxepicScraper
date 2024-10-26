@@ -23,7 +23,7 @@ def main():
 
     # Configure logging to output to both file and console
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
         handlers=[
             logging.FileHandler(f"{config['filename_base']}.log", mode='w'),
